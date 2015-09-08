@@ -17,3 +17,10 @@ Once grunt's installed run
 npm install
 grunt server
 ```
+
+
+###TODO
+remove all bootsrap / compass dependencies
+move to Gulp
+create Dist folder
+create unit tests 

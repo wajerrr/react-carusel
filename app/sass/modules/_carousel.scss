@@ -1,0 +1,75 @@
+.carusel-container
+{
+  width:100%;
+  position: relative;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.slides-container
+{
+
+  position: absolute;
+  width:100%;
+  transition: left 0.5s;
+}
+.caption
+{
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  color:white;
+  font-size:16px;
+  bottom: 0;
+  left:0;
+  display: block;
+  width: 100%;
+  margin:0;
+  padding:15px;
+}
+
+.dots-container {
+  text-align: center;
+  margin-top:20px;
+  display:block;
+  padding:0;
+}
+.dots {
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+   list-style-type: none;
+   display: inline-block;
+   margin-right: 5px;
+   cursor: pointer;
+}
+
+.arrow
+{
+  background-color: rgba(0,0,0,0.7);
+  width:50px;
+	height:50px;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+  top: 50%;
+  margin-top: -25px;
+  .icon
+  {
+    color:white;
+    font-size:35px;
+    line-height:50px;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+  }
+}
+
+.prev
+{
+  left:0;
+}
+
+.next
+{
+  right:0;
+}
